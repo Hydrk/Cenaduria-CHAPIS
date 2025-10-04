@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cenaduría CHAPIS - Los mejores antojitos mexicanos en Tecomán. Sopes, enchiladas, flautas y más.">
+    <meta name="keywords" content="cenaduría, antojitos mexicanos, Tecomán, comida mexicana">
+    <title>Cenaduría CHAPIS - Antojitos Mexicanos</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="Imagenes/logo.png" alt="Logo Cenaduría CHAPIS" class="logo">
+        </div>
+        
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#origen">Origen</a></li>
+                <li><a href="#quienes-somos">Conócenos</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#ubicacion">Localízanos</a></li>
+            </ul>
+        </nav>
+        
+        <div class="telefono">
+            <h1>TEL. 313 325 3818</h1>
+        </div>
+    </header>
+
+    <!-- CARRUSEL DE FOTOS CORREGIDO -->
+    <section id="carrusel" class="carrusel-container">
+        <div class="carrusel">
+            <div class="carrusel-slide active">
+                <img src="Imagenes/ejemploimg1.jpg" alt="Interior de Cenaduría CHAPIS">
+                <div class="carrusel-texto">
+                    <h2>Bienvenidos a CHAPIS</h2>
+                    <p>El auténtico sabor de Tecomán</p>
+                </div>
+            </div>
+            <div class="carrusel-slide">
+                <img src="Imagenes/ejemploimg2.jpg" alt="Nuestros deliciosos sopes">
+                <div class="carrusel-texto">
+                    <h2>Nuestros Especiales</h2>
+                    <p>Sopes tradicionales hechos con amor</p>
+                </div>
+            </div>
+            <div class="carrusel-slide">
+                <img src="Imagenes/ejemploimg3.jpg" alt="Ambiente familiar">
+                <div class="carrusel-texto">
+                    <h2>Ambiente Familiar</h2>
+                    <p>Disfruta en un lugar acogedor</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Botones de navegación (SIN onclick) -->
+        <button class="carrusel-btn carrusel-prev">&#10094;</button>
+        <button class="carrusel-btn carrusel-next">&#10095;</button>
+        
+        <!-- Indicadores (SIN onclick) -->
+        <div class="carrusel-indicadores">
+            <span class="indicador active"></span>
+            <span class="indicador"></span>
+            <span class="indicador"></span>
+        </div>
+    </section>
+
+    <section id="origen" class="info-section">
+        <h2>NUESTRO ORIGEN</h2>
+        <p>
+            Nuestra cenaduria fue fundada por Maria del Refugio Reyes Mayor y familia en el año 2020 que con su esfuerzo y gran compromiso lo convirtieron en el mejor lugar de Tecoman para comer antojitos.
+        </p>
+        <p>
+            Han transcurrido los años, y seguimos llevando a las familias mexicanas nuestra sazón, la cual es reconocida todos los días por nuestros comensales que siempre salen satisfechos con nuestro menú.
+        </p>
+    </section>
+
+    <section id="quienes-somos" class="info-section">
+        <h2>¿QUIÉNES SOMOS?</h2>
+        <p>
+            En Sopes Chapis somos una cenaduria de mucha tradición, más de 5 años de experiencia nos han convertido en el mejor lugar para comer antojitos mexicanos
+            Nos dedicamos exclusivamente a la preparación de comida mexicana que incluye 
+        </p>
+        <ul>
+            <li>Sopes</li>
+            <li>Sopitos</li>
+            <li>Flautas</li>
+            <li>Tostadas</li>
+            <li>Sopes gordos</li>
+            <li>Enchiladas dulces</li>
+            <li>Sopes preparados</li>
+            <li>Tacos de papa</li> 
+        </ul>  
+        <p>entre muchos platillos más que son clásicos de Tecomán.</p>
+    </section>
+
+    <main id="menu">
+        <h1>Cenaduría CHAPIS</h1>
+        <h2>Menú de Antojitos</h2>
+
+        <div class="menu-grid">
+            <section class="antojito-card">
+                <img src="Imagenes/sope-gordo.jpeg" alt="Imagen de Sopes">
+                <h3>Sopes Tradicionales</h3>
+                <p>Masa de maíz frita y suave, con frijoles, lechuga, queso y crema.</p>
+                <span class="precio">Desde $45 MXN</span>
+            </section>
+            <section class="antojito-card">
+                <img src="Imagenes/enchilada-dulce.jpg" alt="Imagen de Enchiladas Dulces">
+                <h3>Enchiladas Dulces</h3>
+                <p>Tortillas bañadas en nuestra salsa de chile dulce, rellenas de pollo.</p>
+                <span class="precio">$15 MXN C/U</span>
+            </section>
+            <section class="antojito-card">
+                <img src="Imagenes/flautas.jpeg" alt="Imagen de Flautas">
+                <h3>Flautas Doradas</h3>
+                <p>Tortillas de maíz enrolladas con pollo o res, fritas a la perfección.</p>
+                <span class="precio">$45 MXN (Orden 4pz)</span>
+            </section>
+            <section class="antojito-card">
+                <img src="Imagenes/tostada.jpg" alt="Imagen de Tostadas">
+                <h3>Tostadas</h3>
+                <p>Base crujiente con frijoles, queso, lechuga y el guisado de tu elección.</p>
+                <span class="precio">Desde $60 y 80 MXN (Dependiendo los ingredientes)</span>
+            </section>
+        </div>
+    </main>
+    
+    <section id="ubicacion" class="info-section">
+        <h2>¡Ven a visitarnos!</h2>
+        <p class="direccion">📍 Dirección: Guayabal 74, Col. Libertad</p>
+        <p class="horario">⏰ Horario: Lunes a Viernes de 7:30 PM a 11:00 PM</p>
+
+        <div class="mapa-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7549.369370041177!2d-103.89372425306175!3d18.901064525490458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x843ab63581d32797%3A0xe1b181082948427!2sGuayabales%2074%2C%20Libertad%2C%2028170%20Tecom%C3%A1n%2C%20Col.!5e0!3m2!1ses-419!2smx!4v1759385522261!5m2!1ses-419!2smx"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cenaduría CHAPIS | ¡El auténtico sabor de México!</p>
+        <p>Visítanos!!</p>
+    </footer>
+
+    <!-- ENLACE AL ARCHIVO JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
